@@ -11,7 +11,7 @@ class Node:
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
 
-        # DFS method
+        # BFS method
         if root == None:
             return None
 
